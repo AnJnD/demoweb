@@ -13,7 +13,6 @@ import java.util.List;
 import java.util.Optional;
 
 @Controller
-
 public class AppController {
     @Autowired
     private UserService userService;

@@ -20,4 +20,6 @@ public interface UserService { // tạo ra lớp cha
     User findByEmail(String email);
 
     List<User> findAll();
+
+    User findByUsername(String username);
 }
